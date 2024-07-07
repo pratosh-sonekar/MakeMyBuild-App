@@ -1,0 +1,54 @@
+{
+  "cabinet": [
+    {
+      "cabinet_name": "ANT ESPORTS 320TG",
+      "price": 3590,
+      "desc": "The ultimate cabinet"
+    },
+    {
+      "cabinet_name": "ANTEC NX 200",
+      "price": 2990,
+      "desc": "The ultimate cabinet"
+    },
+    {
+      "cabinet_name": "ANTEC NX 800 (BLACK)",
+      "price": 6690,
+      "desc": "The ultimate cabinet"
+    },
+    {
+      "cabinet_name": "ANTEC NX 800 (WHITE)",
+      "price": 7999,
+      "desc": "The ultimate cabinet"
+    },
+    {
+      "cabinet_name": "COOLER MASTER H500",
+      "price": 9150,
+      "desc": "The ultimate cabinet"
+    },
+    {
+      "cabinet_name": "COOLER MASTER K 501",
+      "price": 4950,
+      "desc": "The ultimate cabinet"
+    },
+    {
+      "cabinet_name": "GAMEMAX IBUPROFEN C1+ 3 Fan kit",
+      "price": 6790,
+      "desc": "The ultimate cabinet"
+    },
+    {
+      "cabinet_name": "GAME MAX Shadow Stream 2+ 3 Fan kit",
+      "price": 5999,
+      "desc": "The ultimate cabinet"
+    },
+    {
+      "cabinet_name": "GAME MAX Tiger Tooth(Black)+ 3Fan",
+      "price": 5790,
+      "desc": "The ultimate cabinet"
+    },
+    {
+      "cabinet_name": "GIGABYTE AC 300G",
+      "price": 8790,
+      "desc": "The ultimate cabinet"
+    }
+  ]
+}

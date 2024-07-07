@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".BonusActivity">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Welcome to Level 2"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/googlebold"
+            android:text="Bonus Arena"
+            android:textAlignment="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:textColor="#000000"
+            android:textIsSelectable="false"
+            android:textSize="34sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="We are just not about delivering plain boring CPU's to you, we optimise it,set it up just the way you want it before delivering to you. \n\nAll softwares, games and tools that you want will be waiting for you to hit the power button and unleash the beast."
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <CheckBox
+            android:id="@+id/office"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:fontFamily="@font/googleregular"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_15ssp"
+            android:text="MS Office"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_55sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="The power of Point with some Word and Excellence."
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <CheckBox
+            android:id="@+id/utilities"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:fontFamily="@font/googleregular"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_15ssp"
+            android:text="Basic Utilities" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_55sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Chrome, WhatsApp, Telegram, Spotify, Netflix, VLC Media Player, WinRAR etc."
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <CheckBox
+            android:id="@+id/creator"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:fontFamily="@font/googleregular"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_15ssp"
+            android:text="Creator Starter" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_55sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Wondershare Filmora, Figma, Adobe XD."
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <CheckBox
+            android:id="@+id/pro"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:fontFamily="@font/googleregular"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_15ssp"
+            android:text="Pro Tools" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_55sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Adobe photoshop, Lightroom, Premiere Pro, After Effects, Illustrator and InDesign."
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <CheckBox
+            android:id="@+id/dev"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:fontFamily="@font/googleregular"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_15ssp"
+            android:text="Developer Box" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_55sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Android Studio, VS Code, Sublime Text, Codeblocks, GitHub."
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <CheckBox
+            android:id="@+id/bombs"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:fontFamily="@font/googleregular"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_15ssp"
+            android:text="Productivity Bombs" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_55sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Notion, TickTock, Microsoft Teams, Spike Email Client."
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/antivirus"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_45sdp"
+            android:fontFamily="@font/googleregular"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_15ssp"
+            android:text="Antivirus (Recommended)" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_55sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="The ultimate Protection against threats."
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_marginLeft="@dimen/_55sdp"
+            android:background="@drawable/button_bg"
+            android:minHeight="35dp"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:paddingRight="5dp"
+            android:gravity="start|center">
+            <Spinner
+                android:id="@+id/spAntivirus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/googleregular"
+            android:text="All the added bonuses come at no extra cost apart from the Antivirus.\nBut don't get greedy.\nSelect the apps and tools necessary for you."
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_85sdp"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/googleregular"
+            android:text="Shipping with"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="center"
+            android:textColor="#0079d5"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="-65dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@drawable/windows" />
+
+        <Button
+            android:id="@+id/rolling"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:backgroundTint="#B4B2F4"
+            android:textSize="13sp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/sfprosemibold"
+            android:hapticFeedbackEnabled="true"
+            android:shadowDx="0"
+            android:layout_marginTop="-10dp"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:text="Keep Rolling"
+            android:textColor="@color/black"
+            app:cornerRadius="50dp" />
+        <Button
+            android:id="@+id/goback"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="45dp"
+            android:backgroundTint="#E7E7E7"
+            android:fontFamily="@font/sfprosemibold"
+            android:shadowDx="0"
+            android:textSize="13sp"
+            android:shadowDy="0"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:shadowRadius="10"
+            android:text="Go Back"
+            android:textColor="@color/black"
+            app:cornerRadius="50dp" />
+    </LinearLayout>
+</ScrollView>

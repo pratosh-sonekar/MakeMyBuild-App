@@ -1,0 +1,154 @@
+{
+  "motherboard" : [
+    {
+      "mother_name" : "GALAX A320 M",
+      "price" : 4999,
+      "desc" : "The entry level champ"
+    },
+{
+"mother_name" : "GIGABYTE B450 M-S2H V2",
+"price" : 6490,
+"desc" : "Budget Guts, Same Glory"
+},
+
+{
+"mother_name" : "GIGABYTE B 550M GAMING",
+"price" : 8990,
+"desc" : "Budget Guts, Same Glory"
+},
+
+{
+"mother_name" : "GIGABYTE B450 Aorus M",
+"price" : 9790,
+"desc" : "Light on Pocket, Heavy on Performance"
+},
+
+{
+"mother_name" : "MSI B550M PRO",
+"price" : 9990,
+"desc" : "Light on Pocket, Heavy on Performance"
+},
+
+{
+"mother_name" : "MSI B450 TOMOHAWK MAX II",
+"price" : 10590,
+"desc" : "Light on Pocket, Heavy on Performance"
+},
+
+{
+"mother_name" : "MSI B550M PRO VDH",
+"price" : 10990,
+"desc" : "Light on Pocket, Heavy on Performance"
+},
+
+{
+"mother_name" : "GIGABYTE B550M DS3H AC",
+"price" : 11490,
+"desc" : "Light Rider, Heavy Provider"
+},
+
+{
+"mother_name" : "MSI B550M PRO VDH WIFI",
+"price" : 11990,
+"desc" : "Light Rider, Heavy Provider"
+},
+
+{
+"mother_name" : "GIGABYTE B550 Gaming XV2",
+"price" : 12290,
+"desc" : "Light Rider, Heavy Provider"
+},
+
+{
+"mother_name" : "GIGABYTE B550 Aorus Elite",
+"price" : 14490,
+"desc" : "The Value King"
+},
+
+{
+"mother_name" : "ASUS B550 M PLUS TUF WIFI",
+"price" : 14490,
+"desc" : "The Value King"
+},
+
+{
+"mother_name" : "MSI X570 A PRO",
+"price" : 15990,
+"desc" : "The Value King"
+},
+
+{
+"mother_name" : "GIGABYTE B550 Aorus Elite AXV2",
+"price" : 16490,
+"desc" : "The Value King"
+},
+
+{
+"mother_name" : "GIGABYTE B550 Aorus Pro",
+"price" : 16990,
+"desc" : "The Value King"
+},
+
+{
+"mother_name" : "GIGABYTE X570 Gaming X",
+"price" : 18290,
+"desc" : "The Eternal Glory"
+},
+
+{
+"mother_name" : "Asus STRIX B550F Gaming (Wifi)",
+"price" : 18490,
+"desc" : "The Eternal Glory"
+},
+
+{
+"mother_name" : "GIGABYTE B550 AORUS PRO AC",
+"price" : 18990,
+"desc" : "The Eternal Glory"
+},
+
+{
+"mother_name" : "Asus TUF Gaming X570-Plus (WIFI)",
+"price" : 20190,
+"desc" : "The Eternal Glory"
+},
+
+{
+"mother_name" : "MSI X570 Gaming Edge WIFI",
+"price" : 20990,
+"desc" : "The Eternal Glory"
+},
+
+{
+"mother_name" : "ASUS X 470 F GAMING STRIX",
+"price" : 21990,
+"desc" : "The Eternal Glory"
+},
+
+{
+"mother_name" : "GIGABYTE X570 Aorus Prowifi",
+"price" : 23990,
+"desc" : "For the God Tier Machines"
+},
+
+{
+"mother_name" : "ASUS X 570 F GAMING STRIX",
+"price" : 25990,
+"desc" : "For the God Tier Machines"
+},
+
+{
+"mother_name" : "GIGABYTE X570 Aorus Ultra",
+"price" : 27990,
+"desc" : "For the God Tier Machines"
+},
+
+{
+"mother_name" : "ASUS X 570 E GAMING STRIX",
+"price" : 29590,
+"desc" : "For the God Tier Machines"
+}
+
+
+]
+}

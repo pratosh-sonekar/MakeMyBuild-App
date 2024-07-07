@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".SemiFinalActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/googlebold"
+            android:text="The Semi Final"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:textColor="#000000"
+            android:textIsSelectable="false"
+            android:textSize="34sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Here's the final checkout list"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="Component"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="Price (₹)"
+                android:padding="@dimen/_30sdp"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="CPU"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/cpuprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/_30sdp"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cpumodel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="CPU"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/cpudesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="CPU"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="GPU"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/gpuprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/_30sdp"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/gpumodel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="GPU"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/gpudesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="GPU"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="RAM"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/ramprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/_30sdp"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rammodel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="RAM"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/ramdesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="RAM"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="Motherboard"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/mbprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/_30sdp"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mbmodel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="Motherboard"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/mbdesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Motherboard"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="Cabinet"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/cabinetprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/_30sdp"
+                android:layout_weight="1"
+                android:text="0"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cabinetmodel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="Cabinet"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/cabinetdesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Cabinet"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ssdtag1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="SSD"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/ssdprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:text="0"
+                android:paddingRight="@dimen/_30sdp"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ssdmodel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="SSD"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/ssddesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="SSD"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/hddtag1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="HDD"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/hddprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="0"
+                android:layout_weight="1"
+                android:paddingRight="@dimen/_30sdp"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hddmodel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="HDD"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/hdddesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="HDD"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/psutag1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="PSU"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/psuprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="0"
+                android:layout_weight="1"
+                android:paddingRight="@dimen/_30sdp"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/psumodel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="PSU"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/psudesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="PSU"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/coolertag1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="Cooler"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/coolerprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="0"
+                android:layout_weight="1"
+                android:paddingRight="@dimen/_30sdp"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/coolermodel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="PSU"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/coolerdesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Cooler"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/monitortag1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="Monitor"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/monitorprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:text="0"
+                android:paddingRight="@dimen/_30sdp"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/monitormodel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="PSU"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/monitordesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Cooler"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/keyboardtag1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="Keyboard"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/keyboardprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="0"
+                android:layout_weight="1"
+                android:paddingRight="@dimen/_30sdp"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/keyboardmodel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="PSU"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/keyboarddesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Cooler"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mousetag1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="Mouse"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/mouseprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="0"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingRight="@dimen/_30sdp"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mousemodel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="PSU"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/mousedesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Cooler"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="Bonus Arena"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="FREEEEE"
+                android:layout_weight="1"
+                android:paddingRight="@dimen/_30sdp"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="Windows 11"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Lifetime"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="Bonus Arena"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="FREEEEE"
+                android:layout_weight="1"
+                android:paddingRight="@dimen/_30sdp"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:textStyle="bold"
+                android:text="Selected Apps and Utilities"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Lifetime"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="textStart"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkoutTotalbtn"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@drawable/rounded_corners"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_13sdp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/googleregular"
+                    android:text="Calculate final total:"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/_13ssp"
+                    android:gravity="center_horizontal"
+                    tools:ignore="RtlCompat" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_17sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="₹"
+                android:textStyle="bold"
+                android:textAlignment="textStart"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:textColor="#00D100"
+                android:textSize="@dimen/_20ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/checkoutTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="0"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:textAlignment="textStart"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:textColor="#00D100"
+                android:textStyle="bold"
+                android:textSize="@dimen/_20ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/confirm_order"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:backgroundTint="#B4B2F4"
+            android:textSize="13sp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/sfprosemibold"
+            android:hapticFeedbackEnabled="true"
+            android:shadowDx="0"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:text="Confirm Order"
+            android:textColor="@color/black"
+            app:cornerRadius="50dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,34 @@
+{
+  "ram": [
+    {
+      "category": "8 GB",
+      "ram_name": "GSkill Ripjaws 8 GB RAM",
+      "price": 3500,
+      "desc": "Single Channel, 3200Mhz"
+    },
+    {
+      "category": "8 GB",
+      "ram_name": "Corsair Vengance 8GB RAM",
+      "price": 3100,
+      "desc": "Single Channel, 3200Mhz"
+    },
+    {
+      "category": "16 GB",
+      "ram_name": "GSkill Ripjaws 16 GB RAM",
+      "price": 7200,
+      "desc": "Dual channel, 3200 MHz"
+    },
+    {
+      "category": "16 GB",
+      "ram_name": "Corsair Vengance 16GB RAM",
+      "price": 6500,
+      "desc": "Dual Channel, 3600 MHz"
+    },
+    {
+      "category": "16 GB",
+      "ram_name": "GSkill Trident Z 16 GB RAM",
+      "price": 9000,
+      "desc": "Dual Channel, 3600 MHz, RGB"
+    }
+  ]
+}

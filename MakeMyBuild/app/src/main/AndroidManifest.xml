@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MakeMyBuild">
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactUsSecondary"
+            android:exported="false" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".ConfirmActivity" />
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".PaymentScreen" />
+        <activity android:name=".SemiFinalActivity" />
+        <activity android:name=".BonusActivity" />
+        <activity android:name=".CustomiseActivity" />
+        <activity android:name=".ConfusedActivity" />
+        <activity android:name=".RecommendActivity" />
+        <activity android:name=".BudgetActivity" />
+        <activity android:name=".LoginSignUpActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

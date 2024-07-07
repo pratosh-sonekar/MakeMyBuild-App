@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".PaymentScreen">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/pcvector" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/googlebold"
+                    android:text="Almost There!"
+                    android:textAlignment="center"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:textColor="#000000"
+                    android:textIsSelectable="false"
+                    android:textSize="34sp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="16dp"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/googleregular"
+                    android:text="Just some final details before we go beserk!"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/_14ssp"
+                    android:gravity="center_horizontal"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Please carefully enter your details."
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Name"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_12ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+        <EditText
+            android:id="@+id/etname"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="41dp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/button_bg"
+            android:ems="10"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:fontFamily="@font/googleregular"
+            android:autofillHints="emailAddress"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="Ph. No."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="@dimen/_12ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+            <EditText
+                android:id="@+id/etphone"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="41dp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/button_bg"
+                android:ems="10"
+                android:fontFamily="@font/googleregular"
+                android:autofillHints="emailAddress"
+                android:hint=""
+                android:inputType="phone"
+                android:maxLines="1"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="Alt. Ph."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="@dimen/_12ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+            <EditText
+                android:id="@+id/etaltphone"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="41dp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/button_bg"
+                android:ems="10"
+                android:fontFamily="@font/googleregular"
+                android:autofillHints="emailAddress"
+                android:hint=""
+                android:inputType="phone"
+                android:maxLines="1"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:text="Address"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="@dimen/_12ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+            <EditText
+                android:id="@+id/etaddress"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/button_bg"
+                android:ems="10"
+                android:fontFamily="@font/googleregular"
+                android:autofillHints="emailAddress"
+                android:hint=""
+                android:maxLines="5"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Wanna leave some extra notes?"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_12ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+        <EditText
+            android:id="@+id/etsugest"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/button_bg"
+            android:ems="10"
+            android:layout_marginLeft="@dimen/_70sdp"
+            android:fontFamily="@font/googleregular"
+            android:autofillHints="emailAddress"
+            android:hint=""
+            android:maxLines="5"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Note. No changes will be made in the components after the procurement/assembly of the initially ordered components. However, any change can be made before that. If the overallcost comes down after the change, the balance will be instantly refunded. If it's the other way around, the buyer would've pay the remaining before delivery."
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_12ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/googlebold"
+            android:text="40% payment "
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:textColor="#000000"
+            android:textIsSelectable="false"
+            android:textSize="34sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="on order confirmation."
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Rest after delivery."
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_12ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:id="@+id/paynow"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:backgroundTint="#B4B2F4"
+            android:textSize="13sp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/sfprosemibold"
+            android:hapticFeedbackEnabled="true"
+            android:shadowDx="0"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:text="Pay Now"
+            android:textColor="@color/black"
+            app:cornerRadius="50dp" />
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="45dp"
+            android:backgroundTint="#E7E7E7"
+            android:fontFamily="@font/sfprosemibold"
+            android:shadowDx="0"
+            android:textSize="13sp"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:text="Contact Us"
+            android:textColor="@color/black"
+            app:cornerRadius="50dp" />
+    </LinearLayout>
+</ScrollView>

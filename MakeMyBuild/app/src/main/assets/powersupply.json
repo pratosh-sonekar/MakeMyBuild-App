@@ -1,0 +1,54 @@
+{
+  "powersupply": [
+    {
+      "powersupply_name": "450W Coolermaster",
+      "price": 2899,
+      "desc": "The ultimate Power Supply"
+    },
+    {
+      "powersupply_name": "450W GIGABYTE",
+      "price": 2699,
+      "desc": "The ultimate Power Supply"
+    },
+    {
+      "powersupply_name": "550W Coolermaster",
+      "price": 3790,
+      "desc": "The ultimate Power Supply"
+    },
+    {
+      "powersupply_name": "550W Gigabyte",
+      "price": 3940,
+      "desc": "The ultimate Power Supply"
+    },
+    {
+      "powersupply_name": "650W Coolermaster",
+      "price": 4790,
+      "desc": "The ultimate Power Supply"
+    },
+    {
+      "powersupply_name": "650W ThermalTake RGB",
+      "price": 4549,
+      "desc": "The ultimate Power Supply"
+    },
+    {
+      "powersupply_name": "700W Antect VP 700P",
+      "price": 5349,
+      "desc": "The ultimate Power Supply"
+    },
+    {
+      "powersupply_name": "700W GOLD Coolermaster",
+      "price": 7299,
+      "desc": "The ultimate Power Supply"
+    },
+    {
+      "powersupply_name": "750W Gigabyte",
+      "price": 6990,
+      "desc": "The ultimate Power Supply"
+    },
+    {
+      "powersupply_name": "800W GOLD Coolermaster",
+      "price": 8199,
+      "desc": "The ultimate Power Supply"
+    }
+  ]
+}

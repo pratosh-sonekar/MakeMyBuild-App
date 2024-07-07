@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".ContactActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/googlebold"
+            android:text="Contact Us"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:textColor="#000000"
+            android:textIsSelectable="false"
+            android:textSize="34sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Here are our details for any direct communication about your order, payment, tracking etc."
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:src="@drawable/pratosh"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/googleregular"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Pratosh Sonekar"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textSize="@dimen/_14ssp"
+                android:gravity="center_horizontal"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="Address"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/_16ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Vyankatesh Nagar , Near tukdoji Maharaj Ashram , Shegaon 444203"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="Delivery Timings:"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/_16ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Friday-Sunday (10am - 6pm)"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:id="@+id/paypage"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:backgroundTint="#B4B2F4"
+            android:textSize="13sp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/sfprosemibold"
+            android:hapticFeedbackEnabled="true"
+            android:shadowDx="0"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:text="Continue to Payment Page"
+            android:textColor="@color/black"
+            app:cornerRadius="50dp" />
+        <Button
+            android:id="@+id/whatsapp"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="45dp"
+            android:backgroundTint="#25D366"
+            android:fontFamily="@font/sfprosemibold"
+            android:shadowDx="0"
+            android:textSize="13sp"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:text="Leave a message on whatsapp"
+            android:textColor="@color/black"
+            app:cornerRadius="50dp" />
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="45dp"
+            android:backgroundTint="#FFBF00"
+            android:fontFamily="@font/sfprosemibold"
+            android:shadowDx="0"
+            android:textSize="13sp"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:text="Call Us"
+            android:textColor="@color/black"
+            app:cornerRadius="50dp" />
+    </LinearLayout>
+</ScrollView>

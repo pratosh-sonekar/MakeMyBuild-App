@@ -1,0 +1,22 @@
+{
+  "hdd": [
+    {
+      "category": "1 TB",
+      "hdd_name": "1 TB Standard",
+      "price": 4500,
+      "desc": "The ultimate HDD"
+    },
+    {
+      "category": "500 GB",
+      "hdd_name": "500 GB Standard",
+      "price": 3000,
+      "desc": "The ultimate HDD"
+    },
+    {
+      "category": "2 TB",
+      "hdd_name": "2 TB Standard",
+      "price": 9000,
+      "desc": "The ultimate HDD"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MakeMyBuild</string>
+    <string name="welcome">Welcome to</string>
+    <string name="shopkeepers">Shopkeepers may trouble you into getting PC components which may specifically not optimise your computer experience in a way that you want it to use it for.</string>
+    <string name="we_are_here">That’s what we’re here for!</string>
+    <string name="select_components">We select components based on the kind of workflow that you may want and if you like what we choose for you, feel free to order from us. </string>
+    <string name="deliver">We deliver quality, ready to use custom build PCs, preloaded with all the software that you want right at your doorstep in hasselfree way. Just hit the power and unleash the beast.</string>
+    <string name="start">Get Started</string>
+    <string name="know">Do we know you?</string>
+    <string name="first_time">If this is your first time, Sign it up bruh!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">password</string>
+    <string name="start_2">Lets start with</string>
+    <string name="want">What you want?</string>
+    <string name="budget">Budget</string>
+    <string name="breed">The Breed of the Beast</string>
+    <string name="kind">The kind of PC</string>
+    <string name="side">Which side are you on?</string>
+    <string name="team">Team Intel or Team AMD?</string>
+    <string name="roll">Let\'s ROLL</string>
+    <string name="confused">I\'m confused what to select</string>
+</resources>

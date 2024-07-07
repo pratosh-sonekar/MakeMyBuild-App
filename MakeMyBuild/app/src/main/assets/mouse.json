@@ -1,0 +1,39 @@
+{
+  "mouse": [
+    {
+      "mouse_name": "Logitech/Dell/HP Wired (Basic)",
+      "type": "Wired",
+      "price": 249
+    },
+    {
+      "mouse_name": "Logitech Wireless (Basic)",
+      "type": "Wireless",
+      "price": 549
+    },
+    {
+      "mouse_name": "Logitech G102 Gaming Mouse",
+      "type": "Wireless",
+      "price": 1349
+    },
+    {
+      "mouse_name": "Logitech G402 Hyperion Fury Gaming Mouse",
+      "type": "Wireless",
+      "price": 1999
+    },
+    {
+      "mouse_name": "Logitech G502 High Performance Gaming Mouse",
+      "type": "Wireless",
+      "price": 3499
+    },
+    {
+      "mouse_name": "Logitech MX Master 2S [God Tier Productivity Mouse]",
+      "type": "Wireless",
+      "price": 5499
+    },
+    {
+      "mouse_name": "Logitech Silent Plus (Wirless)",
+      "type": "Wirless",
+      "price": 1099
+    }
+  ]
+}

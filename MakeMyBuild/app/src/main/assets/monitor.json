@@ -1,0 +1,59 @@
+{
+  "monitor": [
+    {
+      "monitor_name": "AOC 23.6' Curved Monitor (144Hz)",
+      "inches":"23.6",
+      "price": 15549
+    },
+    {
+      "monitor_name": "AOC 23.8' Borderless",
+      "inches":"23.8",
+      "price": 11449
+    },
+    {
+      "monitor_name": "AOC 24.5' Gaming 1ms  144Hz",
+      "inches":"24.5",
+      "price": 15749
+    },
+    {
+      "monitor_name": "Acer Nitro 21.5' Gaming 1ms 75Hz",
+      "inches":"21.5",
+      "price": 10499
+    },
+    {
+      "monitor_name": "BenQ 24' 1080p 60Hz ",
+      "inches":"24",
+      "price": 13499
+    },
+    {
+      "monitor_name": "Samsung 23.5' Curved 1080p 60Hz",
+      "inches":"23.5",
+      "price": 12399
+    },
+    {
+      "monitor_name": "LG 24' AMD FreeSync 75Hz ",
+      "inches":"24",
+      "price": 14499
+    },
+    {
+      "monitor_name": "LG Ultrawide 29' WFHD HDR 10 AMD FreeSync sRGB 99%",
+      "inches":"29",
+      "price": 18999
+    },
+    {
+      "monitor_name": "Acer 27' Frameless AMD Free Sync",
+      "inches":"27",
+      "price": 15599
+    },
+    {
+      "monitor_name": "Lenovo Q Series 23.8' 75Hz AMD Free Sync",
+      "inches":"23.8",
+      "price": 14299
+    },
+    {
+      "monitor_name": "LG 27' QHD HDR 10 sRGB 99%",
+      "inches":"27",
+      "price": 27499
+    }
+  ]
+}

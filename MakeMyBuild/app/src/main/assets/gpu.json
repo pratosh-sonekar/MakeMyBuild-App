@@ -1,0 +1,219 @@
+{
+  "gpu" : [
+    {
+      "gpu_name" : "GT 730 2GB",
+      "price" : 7490,
+      "desc" : "COLORFUL "
+    },
+    {
+      "gpu_name" : "GT 730 4GB",
+      "price" : 9349,
+      "desc" : "COLORFUL "
+    },
+    {
+      "gpu_name" : "GT 730 4GB",
+      "price" : 8990,
+      "desc" : "GALAX"
+    },
+{
+"gpu_name" : "GTX 1050 TI 4GB ",
+"price" : 20990,
+"desc" : "COLORFUL"
+},
+    {
+      "gpu_name" : "GTX 1050 TI 4GB  ",
+      "price" : 21590,
+      "desc" : "Gigabyte"
+    },
+    {
+      "gpu_name" : "GTX 1050 TI 4GB  ",
+      "price" : 23990,
+      "desc" : "MSI"
+    },
+{
+"gpu_name" : "GTX 1650 (2 Fans)",
+"price" : 27990,
+"desc" : "Gigabyte"
+},
+    {
+      "gpu_name" : "GTX 1650",
+      "price" : 32490,
+      "desc" : "MSI VENTUS"
+    },
+
+    {
+      "gpu_name" : "GTX 1660 6GB ",
+      "price" : 42990,
+      "desc" : "Gigabyte/GALAX"
+    },
+
+{
+"gpu_name" : "GTX 1660 OC 6GB",
+"price" : 43990,
+"desc" : "Gigabyte"
+},
+
+{
+"gpu_name" : "GTX 1660 Tl OC ",
+"price" : 45990,
+"desc": "Gigabyte"
+},
+
+{
+"gpu_name" : "GTX 1660 SUPER",
+"price" : 49990,
+"desc" : "INNO3D"
+},
+    {
+      "gpu_name" : "GTX 1660 SUPER",
+      "price" : 50990,
+      "desc" : "COLORFUL"
+    },
+    {
+      "gpu_name" : "RTX 2060 6GB",
+      "price" : 51590,
+      "desc" : "Gigabyte/GALAX"
+    },
+    {
+      "gpu_name" : "GTX 1660 Super OC",
+      "price" : 53990,
+      "desc" : "Gigabyte"
+    },
+    {
+      "gpu_name" : "GTX 1660 SUPER ",
+      "price" : 54990,
+      "desc" : "MSI VENTUS"
+    },
+    {
+      "gpu_name" : "RTX 3060  ",
+      "price" : 63990,
+      "desc" : "GALAX LHR"
+    },
+    {
+      "gpu_name" : "RTX 3060 DUO LHR  ",
+      "price" : 64490,
+      "desc" : "COLORFUL"
+    },
+    {
+      "gpu_name" : "RTX 3060 Gaming OC  ",
+      "price" : 67990,
+      "desc" : "LHR Gigabyte"
+    },
+    {
+      "gpu_name" : "RTX 3060 Gaming OC  ",
+      "price" : 67990,
+      "desc" : "LHR Gigabyte"
+    },
+    {
+      "gpu_name" : "RTX 3060 ADV LHR  ",
+      "price" : 72990,
+      "desc" : "COLORFUL"
+    },
+    {
+      "gpu_name" : "RTX 3060 Ultra LHR ",
+      "price" : 73990,
+      "desc" : "COLORFUL"
+    },
+    {
+      "gpu_name" : "RTX 3060 Tl Eagle LHR ",
+      "price" : 75490,
+      "desc" : "Gigabyte"
+    },
+    {
+      "gpu_name" : "RTX 3060 Gaming OC ",
+      "price" : 77990,
+      "desc" : "NON LHR Gigabyte"
+    },
+    {
+      "gpu_name" : "RTX 3060 Ultra NON-LHR ",
+      "price" : 78490,
+      "desc" : "COLORFUL"
+    },
+    {
+      "gpu_name" : "RTX 3060 ADV NON LHR ",
+      "price" : 82990,
+      "desc" : "COLORFUL"
+    },
+    {
+      "gpu_name" : "RTX 3070 - LHR ",
+      "price" : 85590,
+      "desc" : "GALAX "
+    },
+    {
+      "gpu_name" : "RTX 3070- LHR ",
+      "price" : 86590,
+      "desc" : "MSI VENTUS "
+    },
+    {
+      "gpu_name" : "RTX 3060 Tl Aorus Elite ",
+      "price" : 87900,
+      "desc" : "Gigabyte "
+    },
+    {
+      "gpu_name" : "RTX 3060 Tl Aorus  ",
+      "price" : 88900,
+      "desc" : "Gigabyte "
+    },
+    {
+      "gpu_name" : "RTX 3070 - Ultra LHR  ",
+      "price" : 88900,
+      "desc" : "COLORFUL "
+    },
+    {
+      "gpu_name" : "RTX 3070 Gaming OC  ",
+      "price" : 106990,
+      "desc" : "Gigabyte "
+    },
+    {
+      "gpu_name" : "RTX 3070 Aorus Master  ",
+      "price" : 110990,
+      "desc" : "Gigabyte "
+    },
+    {
+      "gpu_name" : "RTX 3070 Tl Gaming OC  ",
+      "price" : 113990,
+      "desc" : "Gigabyte "
+    },
+    {
+      "gpu_name" : "RTX 3070 Suprim X LHR  ",
+      "price" : 115990,
+      "desc" : "MSI "
+    },
+    {
+      "gpu_name" : "RTX 3080 LHR  ",
+      "price" : 120490,
+      "desc" : "GALAX "
+    },
+    {
+      "gpu_name" : "RTX 3070 Tl Aorus Master ",
+      "price" : 121490,
+      "desc" : "Gigabyte "
+    },
+    {
+      "gpu_name" : "RTX 3080 Gaming OC ",
+      "price" : 138990,
+      "desc" : "Gigabyte "
+    },
+    {
+      "gpu_name" : "RTX 3080 Gaming OC ",
+      "price" : 138990,
+      "desc" : "Gigabyte "
+    },
+    {
+      "gpu_name" : "RTX 3080 Extreme Water Block ",
+      "price" : 155990,
+      "desc" : "Gigabyte "
+    },
+    {
+      "gpu_name" : "RTX 3080 TI (4 Fans) ",
+      "price" : 163990,
+      "desc" : "GALAX "
+    },
+    {
+      "gpu_name" : "RTX 3080 TI Vulcan ",
+      "price" : 168490,
+      "desc" : "COLORFUL "
+    }
+
+  ]
+}

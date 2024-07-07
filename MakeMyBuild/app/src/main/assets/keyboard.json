@@ -1,0 +1,59 @@
+{
+  "keyboard": [
+    {
+      "keyboard_name": "Dell Wired Keyboard",
+      "type": "Wired",
+      "price": 599
+    },
+    {
+      "keyboard_name": "Logitech Compact Wireless Keyboard",
+      "type": "Wireless",
+      "price": 799
+    },
+    {
+      "keyboard_name": "Logitech Wired Keyboard",
+      "type": "Wired",
+      "price": 699
+    },
+    {
+      "keyboard_name": "CosmicByte CB GK -16 Mechanical Gaming Keyboard",
+      "type": "Wireless",
+      "price": 2299
+    },
+    {
+      "keyboard_name": "Logitech G213 Poridigy Lightsync Gaming Keyboard",
+      "type": "Wireless",
+      "price": 3799
+    },
+    {
+      "keyboard_name": "Logitech G512 Mechanical Gaming Keyboard",
+      "type": "Wireless",
+      "price": 9999
+    },
+    {
+      "keyboard_name": "CosmicByte CB-GK-02 Corona Wired Keyboard",
+      "type": "Wired",
+      "price": 1299
+    },
+    {
+      "keyboard_name": "CosmicByte CB-GK-17 Galactic Wired Keyboard",
+      "type": "Wired",
+      "price": 1599
+    },
+    {
+      "keyboard_name": "CosmicByte CB-GK-13 Neon Rainbow Mechanical Keyboard",
+      "type": "Wireless",
+      "price": 1999
+    },
+    {
+      "keyboard_name": "Redgear Blaze Semi-Mechanical Keyboard",
+      "type": "Wireless",
+      "price": 999
+    },
+    {
+      "keyboard_name": "Redgear Shadow Blade Mechanical Keyboard",
+      "type": "Wirless",
+      "price": 2499
+    }
+  ]
+}

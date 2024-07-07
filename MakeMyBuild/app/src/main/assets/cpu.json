@@ -1,0 +1,59 @@
+{
+  "cpu" : [
+{
+"cpu_name" : "AMD Ryzen 3 3200G",
+"category" : "gaming",
+"price" : 15999,
+"desc" : "4 Cores & 4 Threads with Radeon Vega 8 Graphics @ 3.6Ghz"
+},
+{
+"cpu_name" : "AMD Ryzen 3 3100",
+"category" : "editing",
+"price" : "9999",
+"desc" : "4 Cores & 8 Threads @ 3.6Ghz"
+},
+{
+"cpu_name" : "AMD Ryzen 5 3600",
+"category" : "productivity",
+"price" : 17190,
+"desc" : "6 Cores & 12 Threads @ 3.6Ghz"
+},
+{
+"cpu_name" : "AMD Ryzen 5 3600X",
+"category" : "gaming",
+"price" : 19990,
+"desc" : "6 Cores & 12 Threads @ 3.8Ghz Boost Clock @ 4.4Ghz"
+},
+
+{
+"cpu_name" : "AMD Ryzen 5 5600X",
+"category" : "editing",
+"price" : 22490,
+"desc" : "6 Cores & 12 Threads @ 3.7Ghz , Boost Clock @ 4.6Ghz"
+},
+    {
+      "cpu_name" : "RYZEN 3 3300X ",
+      "category" : "editing",
+      "price" : 11990,
+      "desc" : "4 cores, 8 threads @ 3.8Ghz "
+    },
+    {
+      "cpu_name" : "RYZEN 5 3500X ",
+      "category" : "editing",
+      "price" : 15490,
+      "desc" : "6 cores, 6 threads @ 3.6 Ghz "
+    },
+    {
+      "cpu_name" : "RYZEN 7 3700X  ",
+      "category" : "editing",
+      "price" : 24990,
+      "desc" : "8 cores, 16 threads @ 3.6 Ghz "
+    },
+    {
+      "cpu_name" : "RYZEN 7 5800X  ",
+      "category" : "editing",
+      "price" : 29990,
+      "desc" : "8 cores, 16 threads @ 3.8 Ghz "
+    }
+  ]
+}

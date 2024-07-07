@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".ConfusedActivity">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Understanding the"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/googlebold"
+            android:text="Breeds"
+            android:textAlignment="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:textColor="#000000"
+            android:textIsSelectable="false"
+            android:textSize="34sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Productivity Beauty:"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="If you do only MS Word, Excel, PowerPoint, Online Classes, Web Browsing, Emails, Social Media browsing, Messaging, etc. Your workflow does not include heavy Photos / Videos editing, 3D Rendering, Heavy code compilation, etc. These are for the classic users. You don’t even need to spend too much on these."
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Gaming Beast:"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Wanna run Red Dead Redemption 2, Cyberpunk, GTA Online, Assassin’s Creed, etc. Your workflow includes 3D rendering and heavy gaming."
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="Editing Monster:"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/googleregular"
+            android:text="If you want to edit photos &amp; videos and your workflow involves it on a daily basis along with Illustrative work on Illustrator, After Effects, etc. Even if you are a developer and wanna compile large chunks of code, this one might help."
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat" />
+        <Button
+            android:id="@+id/ahead"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:backgroundTint="#B4B2F4"
+            android:textSize="13sp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/sfprosemibold"
+            android:hapticFeedbackEnabled="true"
+            android:shadowDx="0"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:text="Let's go ahead."
+            android:textColor="@color/black"
+            app:cornerRadius="50dp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,46 @@
+{
+  "ssd": [
+    {
+      "category": "250 GB",
+      "ssd_name": "Crucial 250GB",
+      "price": 3699,
+      "desc": "The ultimate SSD"
+    },
+    {
+      "category": "500 GB",
+      "ssd_name": "Kingston 500GB",
+      "price": 4099,
+      "desc": "The ultimate SSD"
+    },
+    {
+      "category": "500 GB",
+      "ssd_name": "WD Blue 500GB",
+      "price": 4489,
+      "desc": "The ultimate SSD"
+    },
+    {
+      "category": "250 GB",
+      "ssd_name": "Kingston 250GB",
+      "price": 3359,
+      "desc": "The ultimate SSD"
+    },
+    {
+      "category": "500 GB",
+      "ssd_name": "Samsung 500GB",
+      "price": 6199,
+      "desc": "The ultimate SSD"
+    },
+    {
+      "category": "1TB",
+      "ssd_name": "Crucial 1TB",
+      "price": 7999,
+      "desc": "The ultimate SSD"
+    },
+    {
+      "category": "1 TB",
+      "ssd_name": "Samsung 1TB",
+      "price": 11449,
+      "desc": "The ultimate SSD"
+    }
+  ]
+}
